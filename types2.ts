@@ -16,7 +16,7 @@ let list : number[] = [1, 2, 3];
 
   // any type for array:
   let a : [any, any] = [1, 2]; // still has only 2 items;
-  let b : Array<any> = [1, 2, 3]; // - may have any length;
+  let b : Array<string | number> = [1, '2', 3]; // - may has any length;
 
 // change types:
 let notSure : any = false;

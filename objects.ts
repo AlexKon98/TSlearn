@@ -17,14 +17,15 @@ type Person = {
   name : string,
   age : number | string,
   nickName? : string,
-  getPass? : () => string };
+  getPass? : () => string 
+};
 
 // so:
 let person1 : Person = {
   name: 'str1',
   age: 31,
   nickName: 'str1'
-}
+};
 
 //and:
 let person2 : Person = {
@@ -33,4 +34,4 @@ let person2 : Person = {
   getPass() : string {
     return `${this.name}${this.age}`
   }
-}
+};

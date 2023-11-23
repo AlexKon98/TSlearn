@@ -32,15 +32,15 @@ Seasons[8]; // "Autumn"
 
 // example:
 // custom name for keys
-enum links {
+enum Links {
   youtube = 'https://www.youtube.com/',
   vk = 'https://www.vk.com/',
   facebook = 'https://www.facebook.com/'
 };
 
 // using:
-links.vk; // 'https://www.vk.com/'
-links.youtube; // 'https://www.youtube.com/'
+Links.vk; // 'https://www.vk.com/'
+Links.youtube; // 'https://www.youtube.com/'
 
 // we can also use const with enum to minimize our code capacity costs:
 const enum MyEnum {
